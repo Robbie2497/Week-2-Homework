@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="resetcss.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Robert McGrew's Portfolio</title>
+</head>
+
+<header>
+  <h1 class="center myname">Robert McGrew</h1>
+</header>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+      <h3 class="white">About Me</h3>
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">
+            <h3 class="white">Portfolio <span class="sr-only">(current)</h3></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <h3 class="white">Contact</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container containerbackground">
+    <div class="row">
+      <div class="col-sm-6">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAABO1BMVEXw8fbc3OYOW81ERlWwzfdqmuQvLzkNXNDa2uXw8ffe3ugxLCrz8/bt7vTh4erq6/Ksy/cAVswAVMzm5u77ZQS20vn5+v/w9fxrm+QARr8aTaUzMz749vcATcsAQb4OV8pAQU78XQAAUcxflOMJSsAYT6ofHyr4byLx1Mji6fTP2+/2oX9Vit+iw/S+0O2Zuu0YGCQdHSmpqbLJydOFrOXzspewyOzzvqny6+zw1szw3tn7UgD0mXH5Zwz3cip9peT3ez0YYs+btOBTftQ5b9FiiNV1k9hqjNSWrOPM2fLxxrfytp9Efdkzb9T3l271q4z5hlAANrqetdmDk65yf5t2e4gDBhRgZ3eHh49fa38rTIkbWL5JREw/SGAnUZ4zRG2fn6Z2dn5iYmowMEFqa3O8vMaRkps2NktOT1haY1t+AAANR0lEQVR4nO2dCVvbRhrH5YtI6uiy8JG1qGXUOrFjIwMOIaGtw5k6C02PlKUbdpfQQPL9P8HOjCRLnhkZmZDACP2ePMEEm3j+eq95ZzwShIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMm0C67TdwhwEA/lV7XKtlIrGRrOGKBSV6tPi0VrvtN/PF+Kyrb204zg4QQGux9ehZSkWqbT7/DBcBXafkbEBXe9qCPHp8g2/sziC9aG39cO2LDzpQIRc6GlT66Y+Li1ubN/jW7gq1N63Fn64tkVYvlUYWitdS7dniYutZGj1Nery1de2BAdcplUquBgRp8yWMRk/TmdVqm5vXv/TaEGrkOF2h9nxrsfUmnQrBnGTF/CDJeK2VulOqQ0+rvYTGmFKFJHfYYf4AWBBw1cuB4PZQRpMev05jHEKAvuMMWXZkdQ+2tw+6cSYWfSKWOKU1EQTA0m/EsBVrtGQ0m8bSztUagStNjXc2XIajQYXyGE8jkMDlUgxr9GDsK5TPGx0gWDu7ewnM6T4hWXtGIFF53xIOlwxjGcSmPpj7JEWDmKapmoJgqhAZkctpX/N9f0XAxsSI8vnl/e0ykmpntEObm2YiMXJiDv3ByFCiXIh5C2//axAxIuRqTc+cyksHlB2F0gSIULfId+ptvP/PAJd2mu8SyCswMnmlQSdiRFGWOqQdqTkSURGUyLd8SKT5aqDYoAiC6OGNh3mlwcZyUolMWiIN2RbyOFmG/ykfjqaKOTHwByiRTA2KlMgaldkSLW+QEimTECR7kqiqEvyMozLBDMMFusSUb1ASVQ8MtkQGHYwUBUvC+ezMzE2CKpYoeBz4gkomZutVjBU1txNaBvC58bF8ITSogxeeNSQGrGDQpZek2Etv/RwjUX555coCEv5eQel0Ot3xeMyeH6eB2FiUL49IiRQ/QfrFIrRNFdbmjofLjRldAWlMYCUm58NgtEtKJIZuGwRuIHRQMxL1I7matEhSDYMSjQQdzZst4NI4l5t+anWfFa2NHgpGe+SgqfyIfhuoY4WcIVdWtPn89T/fPHnyWJLksC4SmeWd4rsZaoY0Jwod1o+a+eYRKRFdO8LCwho6pfrI3RnzJFHt5RZa6Go9qQl0sUeUd15tbfRKvcO9w+ZEoXrPgCmNkAh4FYU4AZfXoNNRUAeBJ4WE2i+tRUjrhxrpGnBYRNL3JYKiQPIP0ON8r16ql8p5g3I0BaZJBaVIDM/1EVouQxL9UgtcA7uajOsB4rnKsheZUUCBplM28ocl/LiZN/avCMCwkvCa/JIX8MKId+e7IrVni48e/fTyJXQ0TcUVkqLEXHEAtqF3PYCO5uE4JS/61o+26aQ/9Z/UhM0Xj18LqKAP54H+FVFmvPBu4Ce0JD146wDF62YgUb1eCh71Zraya08WW62t1tYLSdDIFgkPEs0Bqouah3WnROEsrcyIwLVnnjO/roWz21AiXqIUep84RiizLqp1aDT36rRC0IqobkiE2gtPojc1rx0ykQn73E0P5YZQJCkaMmU0qQ8u8IyXoeb+Nkuio8OZ0br2I4x2v/76FEqk4l6RNy/E3FU/MyfTg+CKwux1tURwHrvUdBgaLXUBmsTDQM8ueZLHuzsDHRJMQfL/LTY2oMFbB0tHlET13o4FpO5KEVIZa4CX6DKb6YiJ+0USroBjYgMQlE63owFg7RzSRlSCLljUixhd78aEJUXjSjs5rE28phGsf/FXZmwAQreiIypdybIYGU2r+AJhkWiNFBjx4JW481ViFFPFVWKyJ4NOYCLw6xjQsaheKUbR6fTmXQ2uJJoH0NWj4y+OKIlGxWkqlEd5TV8+Vj1mgFrKEiNcdPRpAVxSIcclJNKpZofG6hxwR3cEZxSMlqlSJAUoEa5G+Bl2NUJqxVsy+Fpj+TKgjdLQIMjleQlUdFKA/lTArjt98gnQ1bjqCCUFS1Tqk2Mj3QxrNGVELmVEzKyWAjp4bYJcVrVWGBIV9dHEkJwhQyH4jLs6sfgMgLICGZN5WWIpBB2p7+e1ep+pUFGfNfXnFuYyaZctERRJd4fDISMMBRqRETutALaN+CrN+FlKzYgBK1gn5bbf+9cBzk6vDV0/ppMZElQ8gq/Bt3Cqr/f7OEbdh2AEsJ9Fhl/E8/1+33Xd4Wg4QtQPXr3a39893Ns7evcu3/zuu4cPH3777W+jyv0wIxysXSjA7u7eOzz6b5k89PluwsMh0jO1M/sQDRlR/TdKAJ8yxDCMJoLcb+Tej2gExkii/nIzQtzuGXK/EQ5GaSyxp5CAF5b3kuoSlUi/H0nNK4oq9bitabPw66mUmxFY8YbZX76GRPejNlJ8S6hsz+9p2/7kRE/vxk/EOJCoF7PbOp7mUSARNVNLk1mFbZDh3MGoeRhMccnayNpIj11F1j30eRXKN3cnEk23H62NXnrCE4jMxg7nDUaGM2mUTHWxLZfua/JLtJc2iglG5eUyWzyjF074o3kfHXDA157rWUTn9Oy038yP+sMjpnpGuCqid4PfCBTc8WZ9bJtHpldg+9tMiXTUCTli2ZFRmqw+hqVR119+S0k5GYlEELfH0KGMVxgrLivdlethUztI+6DrLZs4sza03U3UHPUBT8KIii7r4zFl1y8sWRKNIq+fKGJ18WEr3DW10W5rcg+6QCzBui5DhmVfIpanGdGNEGHzEVjjkePovEmE9yOQi+3adFe/P2Sk/fKoEm9F0Y0Q0V8MQHfI12dkBG9bC7llA3SL0/RLtKd5kwxmLHpgRNbXiOV9ALjrRSqM/Y3UwkelzxDC6FUqlT5zjrsdLrHp49sZ142imdRSBbV8xuyrGdu9XplVF01mscX0dh6pHTMxfTUjpriezGLT2zGSBKiRjtaHJtFontk+dMGJtuldTJNgOPr9j7dv3/7uD3WevppRmkz0+asTE1NV/2x8tDFvN5BEzM/Fxkk0ug8KXRw3Cj62/Qc0CuZEI1YibEV6MT3tMwqokF0Isf8Fzch4kFgir3LUK9xVQHOgrTYKhSmN9Mpuck9b7mOFpPR6mVA9adsFQqNK7EkPDEfTU78FqzpYKBDYf+0kt6LmX+mth3xygwYpUcH+5vvEwejdaSHB0Zhcc8GQqGD/ew6J7AW1etuj+KKsD2xaosJ/jAcJ+f60YC+sx2gETJWeFHKHesywosLpf/8Rw/eY8Pv/IaM7jtHIFOkWHn9UGyyJCqen3yQD26DdZn8qBjWoeP9IEZTojOlphUJjIRF+8LKZ/qSJOZl/RxMke4GtUSKFAhP8+4Tpagr/bgYB68dsjew5FCoUBhfpSmsS0MJqr3o5YGt0tatFXma3+Q86EYClO5GCuHrC1ugKM2pMv6bxPkVmZHVGjuNGTriunrB9Lc6MGg3bpp8/WL/FMd0s1gpeSx5Hpg3VteMFVpHNMh12bEfPPk+JGUnasOevt0fScXW9zdKoQeoTJw9m9a6eLDMvUqe7orsj4oYEVfW0TTubPYdAMPGfpcSM8AcaLUvqrEy1UkH1PSNoh2bErMEJzhV8TDE6XCIFBaN3msEU1bNjylLshAbkPxsdBOSfFimbqagaCarrDSoiNZILVCh8Ig4HT1Wl5FEVoLNNe1vc7IRpRH+Sx4TKaVrBVtBBw7JsrrWJqJ3YhGC4XqMPm01FTELqqHJwMpwqfhhMO1uSOO0pdMK4TwHnR4cI6OjTUB3fN8yLhXa0459QIrv9gb5NQQ4f9M8xiilT56whQ8q9j/az7SQa2Y3BB5VxpjPXIVvSZOoOJ6EhRXW5IhrB6VpjoT04YyvE8WlYCuOM6oghmedXmBHeJNFo4NKyPbAvxbjfd9sDvTbMsBGakXoStZwFQpxGWHO324NB4/2FGmNC/IZraaYJyerFp+naqBF56CuzuroKq4Pzk7MLMVYfBKfRWooLQp5AuZO/Ca/yo5ENXWrQtk/P35+crV2si6pp+uf2x8KrETHzWCgQY8KPWmifPkFlkDBqcOezWdrwbURmvEKqeNJmtdYavsmoyYSZwGvGjx+kehnT5z8351LGh9+DC2NHq1JBKEhpazPjexzcKhQrkbw+ILJ78Kh9HYl4XsxXYsakrk0VQB8/nAUaDdbn9zO++yD0fQO8QU1J9PHEfO9L1DidXWky9ea8C6IxRyWLqxGFLk1xYkTz+pnIcRgKUJiOo661J3HoT1MN/GzhfF6FVK6dLEBTRbrGVi8Djf4WZdlXqP1pvlpIlDmO09NImonGjpTC9yJEwzNPBqiQtlcv4bc4ozUGH+ZTKD0CeUiCogR3A8FBHGa1Qbt9jFqssni+Ohh8upg1SU29QNN4WUtVLy7P1rFJyeb6ukiW1Qz3DElHDIplktflsLlBzshEMadqgqIx7UqkbhqaMmJqJcJKAhFU+tlpF0igb7s3UwNpup8C66B0uxhiphGJtI1IUTtKvwEhZkqkMvZ5SP4Kk3w/9EHEd0jiJZAk1n0yUgt9cyfkYPQhLPcZemor34MYPB9SuHwNyx9Tu1dOlBx8y2Z8i6d0f04xIyMjIyMjIyMjIyMjIyMjIyMjIyMj4wvwfxbHfXuBaSyCAAAAAElFTkSuQmCC"
+          class="img-fluid mypicture column" alt="Responsive image">
+      </div>
+      <div class="col-sm-6">
+        <p>This is the homework assignment that I completed after just one week. The assignment was to take a website
+          and
+          refactor it so that it was more accessible. I took the time to go through each element and applied semantics
+          so
+          that each element wasn't just a div. Instead I made a header, a nav bar, sections, articles, and a footer. Click the link to see the website!</p>
+        <a class="link1" href="https://robbie2497.github.io/Week-1-Homework/">Click here to view!</a>
+      </div>
+    </div>
+
+  </div>
+  <footer>Robert McGrew</footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+.center {
+    text-align: center;
+}
+
+header {
+    margin-top: 10px;
+}
+
+.white {
+    color: white;
+}
+
+.mypicture {
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 45px;
+
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.myname {
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 100px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.containerbackground {
+    background-color: white;
+}
+
+body {
+    background-color: gray;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: gray;
+}
+
+.card {
+    margin-left: 25px;
+    border-left: gray;
+    border-right: gray;
+    border-bottom: gray;
+}
+
+.link1 {
+    margin-left: 45px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .column {
+        height: 250px;
+        width: 250px;
+        }
+    }
